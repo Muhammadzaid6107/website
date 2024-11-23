@@ -1,0 +1,636 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.header-area {
+  display: flex;
+  padding: 20px;
+  /* width: 100%; */
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.nav-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menu-item {
+  color: #169e00 !important;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  cursor: pointer;
+}
+
+.menu-item-cta {
+    border-radius: 14px;
+    background-color: #169e00 ;
+    color: white ;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logo-item{
+    cursor: pointer;
+}
+/* ===========================================
+               hero section 
+===========================================                */
+.hero-container{
+    background-color: #169E00;
+    /* height: 890px; */
+    /* position: relative; */
+    color: white;
+}
+.heading{
+    font-weight: 700;
+    font-size: 96px;
+    padding-top: 200px;
+    padding-left: 60px;
+}
+.heading-2{
+    font-size: 40px;
+font-weight: 700;
+line-height: 48.76px;
+padding-top: 10px;
+padding-left: 60px;
+}
+.paragraph-1{
+    font-size: 24px;
+    font-weight: 700;
+line-height: 29.26px;
+padding-top: 10px;
+padding-left: 60px;
+}
+.btn{
+    background-color: white;
+    color: #169E00;
+    border: white;
+    margin-top: 10px;
+    font-size: 32px;
+    line-height: 39.01px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-bottom: 200px;
+}
+/* =================================
+        work with us 
+================================= */
+.content-container{
+    text-align: center;
+}
+.box-1{
+    margin-left: 395px;
+    float: inline-start;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+background-color: #169E00;
+color: black;
+font-size: 32px;
+font-weight: 700;
+}
+.box-2{
+    
+    float: inline-start;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: #002A96;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+.row::after{
+content: "";
+display: table;
+clear: both;
+}
+ .h1{
+    padding-top: 60px;
+    color: #169E00;
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: capitalize;
+   
+ }
+ .paragraph-2{
+    color: #A3A3A3;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 40px;
+ }
+.box-3{
+    float: left;
+    justify-content: center;
+    background-color: white;
+    color: white;
+    width: 396px;
+    height: 397px;
+    margin:40px 20px 40px 60px;
+    border-radius: 30px;
+    box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+}
+.h2h{
+    display: block;
+font-size: 64px;
+font-weight: 700;
+text-align: center;
+background-color: #169E00;
+border-radius: 0%;
+margin-top: 20px;
+
+}
+.black{
+    color: black;
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 10px;
+}
+.gray{
+    color: #A3A3A3;
+    padding-top:10px ;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 10px;
+}
+.box-4{
+    float: left;
+    justify-content: center;
+    background-color: white;
+    color: white;
+    width: 396px;
+    height: 397px;
+    margin:40px 20px 40px 0px;
+    border-radius: 30px; 
+    box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+}
+.box-5{
+    float: left;
+     justify-content: center;
+     background-color: white;
+    color: white;
+    width: 396px;
+    height: 397px;
+    margin:40px 40px 40px 0px;
+    border-radius: 30px;
+    box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+     
+}
+
+ .row-1::after{
+    content: "";
+    display: table;
+    clear: both;}
+/* ===========================================
+             our offer
+===========================================              */
+.our-container{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.h1h{
+    font-size: 96px;
+    font-weight: 700;
+    color: #169E00;
+}
+.par{
+    font-size: 48px;
+    font-weight: 400;
+    color: #A3A3A3;
+}
+.box6{
+float: left;
+background-color: white;
+box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+width: 594px;
+height: 234px;
+margin-left: 60px;
+margin-right: 20px;
+padding-top: 40px;
+margin-top: 60px;
+border-radius: 20px;
+}
+.h6h{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    float: left;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+.p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #A3A3A3;
+    float: left;
+    padding: 20px 0 20px 40px;
+}
+.box7{
+float: left;
+background-color: white;
+box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+width: 594px;
+height: 234px;
+margin-left: 20px;
+padding-top: 40px;
+margin-top: 60px;
+border-radius: 20px;
+}
+.row-4::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.box8{
+    float: left;
+    background-color: white;
+    box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+    width: 594px;
+    height: 234px;
+    margin-left: 60px;
+    margin-right: 20px;
+    padding-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+}
+.box9{
+    float: left;
+    background-color: white;
+    box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+    width: 594px;
+    height: 234px;
+    margin-left: 20px;
+    padding-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+}
+.row-5::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* ================================================
+=================================================
+================================================
+            shedule now
+=====================================================
+=======================================================
+================================================== */
+.talk{
+    background-color: #169E00;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom:200px ;
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.paragraph-3{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    display: flexbox;
+    gap: 10px;
+
+}
+.let{
+    font-size: 64px;
+    font-weight: 700;
+    color: #169E00;
+}
+.to{
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #A3A3A3;
+}
+/* ====================================
+            form
+====================================             */
+.form-container{
+background-color: #169E00;
+width: 1243px;
+height: 910px;
+margin-bottom: 100px;
+margin-left: 40px;
+padding-left: 30px;
+border-radius: 40px;
+}
+.input{
+    padding-top: 30px;
+font-size: 36px;
+font-weight: 500;
+text-transform: capitalize;
+}
+.a1{
+    width: 1183px;
+    height: 85px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-1{
+    background-color: #002A96;
+    border: #002A96;
+    color: white;
+    padding: 10px 522px;
+    margin-top: 60px;
+    font-size: 36px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* ================================
+          foooter
+================================           */
+.footer-container{
+    background-color: #002A96;
+    height: 344px;
+}
+.first{
+color: white;
+float: left;
+padding-top: 140px;
+padding-left: 40px;
+font-size: 48px;
+font-weight: 700;
+}
+.first-1{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.second{
+    color: white;
+    float: left;
+    padding-top: 100px;
+padding-left: 40px;
+font-size: 32px;
+font-weight: 700;
+}
+.third{
+    color: white;
+    float: left;
+    padding-top: 20px;
+padding-left: 40px;
+font-size: 32px;
+font-weight: 700;
+}
+.third-3{
+    font-size: 16px;
+    font-weight: 500;
+}
+.text{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.four{
+    color: white;
+    float: left;
+    padding-top: 20px;
+padding-left: 40px;
+font-size: 32px;
+font-weight: 700;
+}
+.btn-2{
+font-weight: 500;
+size: 20px;
+background-color: #169E00;
+color: white;
+padding: 10px 20px;
+border: #169E00;
+border-radius: 20px;
+}
+.four-4{
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* =============================================    
+=============================================
+                about us
+==============================================
+=============================================== */
+.team-container{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    height: 1582px;
+    
+
+}
+.over{
+    color: #169E00;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 96px;
+    font-weight: 700;
+    padding-bottom: 50px;
+
+}
+.box10{
+    float: left;
+    background-color: white;
+    box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+    width: 426px;
+    height: 423px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.img-2{
+    width: 426px;
+    height: 423px;
+    border-radius: 20px;
+}
+.box11{
+    float: left;
+    background-color: white;
+    box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+    width: 426px;
+    height: 423px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.box12{
+    float: left;
+    background-color: white;
+    box-shadow: 0 10px 16px 0 rgba(6, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+    width: 426px;
+    height: 423px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.box13{
+    float: left;
+    background-color: white;
+    width: 426px;
+    height: 94px;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+}
+.box14{
+    float: left;
+    background-color: white;
+    width: 426px;
+    height: 94px;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+}
+.box15{
+    float: left;
+    background-color: white;
+    width: 426px;
+    height: 94px;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+}
+.h66h{
+    color: #169E00;
+    font-size: 40px;
+    font-weight: 700;
+}
+.pp1{
+    color: #A3A3A3;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+/* ==============================================
+==============================================
+                services
+==============================================
+==============================================                 */
+
+.box-container{
+    background-color: rgb(255, 255, 255);
+
+}
+.box16{
+    width: 393px;
+    height: 321px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 110px;
+}
+.box17{
+    width: 734px;
+    height: 321px;
+    float: left;
+    background-color: #002A96;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+.laptop{
+    width: 393px;
+    height: 321px;
+}
+.h33h{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.ppp1{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    padding-left: 20px;
+}
+.button{
+    background-color: #169E00;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: #169E00;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.row11::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-container2{
+    background-color: white;
+    margin-bottom: 50px;
+    
+}
+.box18{
+    background-color: #002A96;
+    width: 734px;
+    height: 321px;
+    margin-top: 20px;
+    margin-left: 110px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: 40px;
+    float: left;
+}
+.box-19{
+    height: 321px;
+    float: left;
+    width: 393px;
+    margin-top: 20px;
+}
+.laptop-1{
+    width: 393px;
+    height: 321px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
